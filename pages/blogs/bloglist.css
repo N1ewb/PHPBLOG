@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #394867;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 6px 20px 6px 20px;
+}
+
+.blog-body {
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.blogs-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 600px;
+    width: 70%;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.blog-image {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 8px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    object-position: top;
+    object-fit: cover;
+}
+
+.card p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.card p:first-of-type {
+    font-weight: bold;
+}

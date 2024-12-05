@@ -1,0 +1,96 @@
+/* Register.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+hr {
+    border: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button.signupbtn {
+    background-color: #4A90E2; /* Soft blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button.signupbtn:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+p {
+    color: #777;
+    text-align: center;
+}
+
+a {
+    color: #4A90E2; /* Soft blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}

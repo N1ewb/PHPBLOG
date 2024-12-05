@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+p {
+    color: #777;
+    text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+
+.alert {
+  color: #721c24;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8d7da;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.psw {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #777;
+}
+
+.psw a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.psw a:hover {
+  text-decoration: underline;
+}
