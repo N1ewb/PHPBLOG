@@ -9,9 +9,11 @@
 </head>
 
 <body>
-    <header>
-        <?php include '../../components/Navbar/Navbar.php'; ?>
-    </header>
+    <?php
+    require '../../config.php';
+    include '../../components/Navbar/Navbar.php';
+    check_user_logged_out();
+    ?>
     <main>
         <!-- Add Blog Form -->
         <?php
@@ -25,11 +27,11 @@
         <form action="../../blogs/AddBlog.php" method="POST" enctype="multipart/form-data">
             <div class="group">
                 <label for="title">Title</label>
-                <input type="text" name="title" id="title" placeholder="Title" required>
+                <textarea type="text" name="title" id="title" placeholder="Title" required></textarea>
             </div>
             <div class="group">
                 <label for="content">Content</label>
-                <input type="text" name="content" id="content" placeholder="Content" required>
+                <textarea type="text" name="content" id="content" placeholder="Content" required></textarea>
             </div>
             <div class="group">
                 <label for="image_path">Blog Image</label>

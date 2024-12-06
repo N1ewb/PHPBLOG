@@ -21,7 +21,11 @@ $blog = $result->fetch_assoc();
 
 <body>
 
-    <?php include '../../components/Navbar/Navbar.php'; ?>
+<?php
+    require '../../config.php';
+    include '../../components/Navbar/Navbar.php';
+    check_user_logged_out();
+    ?>  
 
     <div class="blog-detail-container">
         <button class="back-button" onclick="history.back()">← Back</button>

@@ -13,7 +13,7 @@
     <nav>
         <div class="logo-wrapper"><img src="" alt="Logo"></div>
         <div class="nav-links">
-            <a href="../../pages/Welcome/Welcome.php">Home</a>
+            <a href="../../pages/Welcome/Welcome.php">Blogs</a>
             <a href="../../auth/Logout.php">Logout</a>
         </div>
     </nav>
